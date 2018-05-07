@@ -1,3 +1,18 @@
+## Quartz Test Information
+
+This repo does not contain built files. To view the project, you can run
+
+``` npm start ```
+
+This will both start the dev environment, as well as the node server, which serves one of two build json files. You can also run
+
+
+``` npm run build && node Server.js && serve -s build ```
+
+which will build the project to /build . It can be immediately viewed at http://localhost:5000.
+
+## Create React App Information
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
