@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display:flex;
+  flex-direction: column;
+  
+  .App-header {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    
+    .App-title {
+      font-size: 1.5em;
+    }
+  }
+  
+  .Quiz-holder {
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    
+    &.message {
+      padding: 20px;
+    }
+  
+    .Quiz-questions-holder {
+      overflow-y: scroll;
+      position: relative;
+      height: 100%;
+    
+      .Quiz-question, .Quiz-submit, .Quiz-final {
+        position: relative;
+        height: 0%;
+        padding: 0px;
+        margin: auto;
+        opacity: .3;
+        box-sizing: border-box;
+        background-color: #ccc;
+        pointer-events: none;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex: 1;
+        overflow: hidden;
+        
+        &.next {
+          height: 10%;
+          padding: 28px 50px;
+        }
+        
+        &.active {
+          height: 90%;
+          min-height: 300px;
+          padding: 30px 50px;
+          display: flex;
+          transition: all linear .5s;
+          opacity: 1;
+          background-color: white;
+          pointer-events: auto;
+          display: flex;
+        }
+        
+        &.freeze {
+          pointer-events: none;
+          opacity: .5;
+        }
+        
+        .Quiz-question-title, .Quiz-question-text {
+          margin-top: 0;
+        }
+        
+        .Quiz-section-holder {
+          max-width: 400px;
+          margin: auto;
+          
+          .Quiz-question-options-holder {
+            text-align: left;
+            display: inline-block;
+          }
+        }
+      }
+      
+      .Quiz-final.next {
+        .Quiz-question-text, .Quiz-reset-button {
+          display: none;
+        }
+      }
+    }
+  }
+}

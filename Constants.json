@@ -1,0 +1,66 @@
+{
+  "content" : [
+    {
+      "type" : "radio",
+      "title" : "First Question:",
+      "text" : "Which Korean dish, translated to 'Army Base Stew', was developed after the end of the Korean War using scrounged ingredients from U.S. Army bases, like hot dogs, baked beans, and American cheese?",
+      "options" : [
+        {
+          "label" : "Sundubu-jjigae"
+        },
+        {
+          "label" : "Gomguk"
+        },
+        {
+          "label" : "Haejang-guk"
+        },
+        {
+          "label" : "Budae-jjigae"
+        }
+      ]
+    },
+    {
+      "type" : "radio",
+      "title" : "Second Question:",
+      "text" : "This organization had a huge uptick in new memberships after the election of Donald Trump as President of the United States, and is commonly associated with the image of a red rose.",
+      "options" : [
+        {
+          "label" : "American Medical Association"
+        },
+        {
+          "label" : "AFL-CIO"
+        },
+        {
+          "label" : "Democratic Socialists of America"
+        },
+        {
+          "label" : "National Rifle Association"
+        }
+      ]
+    },
+    {
+      "type" : "dropdown",
+      "title" : "Third Question:",
+      "text" : "Based on the 2010 Census, this borough of New York City, if it were counted as it's own city, would be the fourth largest city in America.",
+      "options" : [
+        {
+          "label" : "Brooklyn"
+        },
+        {
+          "label" : "Queens"
+        },
+        {
+          "label" : "The Bronx"
+        },
+        {
+          "label" : "Manhattan"
+        }
+      ]
+    }
+  ],
+  "answers" : [
+    3,
+    2,
+    0
+  ]
+}

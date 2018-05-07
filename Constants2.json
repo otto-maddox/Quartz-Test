@@ -1,0 +1,66 @@
+{
+  "content" : [
+    {
+      "type" : "radio",
+      "title" : "First Question:",
+      "text" : "Which of the following is NOT one of RoboCops Prime Directives",
+      "options" : [
+        {
+          "label" : "No interference with a pre-warp civilization"
+        },
+        {
+          "label" : "Serve the public trust"
+        },
+        {
+          "label" : "Uphold the law"
+        },
+        {
+          "label" : "Never Oppose an OCP Officer"
+        }
+      ]
+    },
+    {
+      "type" : "dropdown",
+      "title" : "Second Question:",
+      "text" : "Professional wrestler Andrade 'Cien' Almas was previously known as La Sombra, the leader of what villianous faction?",
+      "options" : [
+        {
+          "label" : "Bullet Club"
+        },
+        {
+          "label" : "Los Ingobernables"
+        },
+        {
+          "label" : "Suzuki-Gun"
+        },
+        {
+          "label" : "SoCal Unlimited"
+        }
+      ]
+    },
+    {
+      "type" : "radio",
+      "title" : "Third Question:",
+      "text" : "This MC has claimed to be a part of the Wu-Tang Clan, although the RZA has labeled him more 'like a first cousin'",
+      "options" : [
+        {
+          "label" : "Method Man"
+        },
+        {
+          "label" : "Cappadona"
+        },
+        {
+          "label" : "DMX"
+        },
+        {
+          "label" : "Redman"
+        }
+      ]
+    }
+  ],
+  "answers" : [
+    0,
+    1,
+    3
+  ]
+}
