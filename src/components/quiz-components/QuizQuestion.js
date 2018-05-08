@@ -11,21 +11,21 @@ class QuizQuestion extends Component {
 
 	render() {
 		const optionRender = this.props.type === 'radio' ? (
-  <RadioQuestion questionOptions={this.props.options} questionValue={this.props.questionValue} questionAnswered={this.props.questionAnswered} questionIndex={this.props.questionIndex} />
+      <RadioQuestion questionOptions={this.props.options} questionValue={this.props.questionValue} questionAnswered={this.props.questionAnswered} questionIndex={this.props.questionIndex} />
 		) : (
-  <DropdownQuestion questionOptions={this.props.options} questionValue={this.props.questionValue} questionAnswered={this.props.questionAnswered} questionIndex={this.props.questionIndex} />
+      <DropdownQuestion questionOptions={this.props.options} questionValue={this.props.questionValue} questionAnswered={this.props.questionAnswered} questionIndex={this.props.questionIndex} />
 		);
 
 		return (
-  <div ref={(node) => { this.fadeIn = node; }} className={this.renderClasses}>
-  <div className="Quiz-section-holder">
-  <h3 className="Quiz-question-title">
-  {this.props.title}
-					</h3>
-  <p className="Quiz-question-text">
-  {this.props.text}
-					</p>
-  {optionRender}
+      <div ref={(node) => { this.fadeIn = node; }} className={this.renderClasses}>
+        <div className="Quiz-section-holder">
+          <h3 className="Quiz-question-title">
+            {this.props.title}
+          </h3>
+          <p className="Quiz-question-text">
+            {this.props.text}
+          </p>
+          {optionRender}
 				</div>
 			</div>
 		);

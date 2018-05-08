@@ -9,12 +9,12 @@ class FinalDisplay extends Component {
 
 	render() {
 		return (
-  <div className={this.renderClasses}>
-  <div className="quiz-section-holder">
-      <p className="Quiz-question-text">
-            You got <span>{this.props.correctCount}</span> questions right!
-					</p>
-      <button onClick={e => this.props.resetQuiz(e)} className="Quiz-reset-button">Try again?</button>
+      <div className={this.renderClasses}>
+        <div className="quiz-section-holder">
+          <p className="Quiz-question-text">
+                You got <span>{this.props.correctCount}</span> questions right!
+              </p>
+          <button onClick={e => this.props.resetQuiz(e)} className="Quiz-reset-button">Try again?</button>
 				</div>
 			</div>
 		);

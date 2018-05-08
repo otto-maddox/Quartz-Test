@@ -9,12 +9,12 @@ class SubmitQuiz extends Component {
 
 	render() {
 		return (
-  <div className={this.renderClasses}>
-  <div className="quiz-section-holder">
-      <p className="Quiz-question-text">
+      <div className={this.renderClasses}>
+        <div className="quiz-section-holder">
+          <p className="Quiz-question-text">
             Submit your quiz and see how you did!
 					</p>
-      <button onClick={e => this.props.quizSubmitted(e)} className="Quiz-submit-button">Submit</button>
+          <button onClick={e => this.props.quizSubmitted(e)} className="Quiz-submit-button">Submit</button>
 				</div>
 			</div>
 		);
